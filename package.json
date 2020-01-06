@@ -1,0 +1,19 @@
+{
+  "name": "crd-github-page-example",
+  "version": "1.0.0",
+  "description": "Easy CRD (create, read, delete) function for github page link to a little node server",
+  "main": "app.js",
+  "scripts": {
+    "test": "node ./server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nesmon/crd-github-page-example.git"
+  },
+  "author": "nesmon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nesmon/crd-github-page-example/issues"
+  },
+  "homepage": "https://github.com/nesmon/crd-github-page-example#readme"
+}
