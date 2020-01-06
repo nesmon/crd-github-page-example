@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Index CRD</title>
+</head>
+
+<body>
+    <input type="text" id="title">
+    <input type="text" id="content">
+    <button type="submit" onclick="post()">send</button>
+
+    <script>
+        function post() {
+            let title = document.getElementById("title").value;
+            let content = document.getElementById("content").value;
+
+            let option = {
+                method: 'GET',
+                headers: new Headers(),
+                mode: 'no-cors'
+            };
+
+            fetch(`http://127.0.0.1:3000/create/${title}&${content}`, option)
+        }
+    </script>
+</body>
+
+</html>
